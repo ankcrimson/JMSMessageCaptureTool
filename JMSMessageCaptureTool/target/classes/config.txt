@@ -1,0 +1,3 @@
+t3://nke-lnx-int-d014:9113,jms.osbXAConnectionFactory,weblogic.jndi.WLInitialContextFactory,jms.emea_goodsIssue_Src
+t3://nke-lnx-int-d014:9115,jms.osbXAConnectionFactory,weblogic.jndi.WLInitialContextFactory,jms.emea_goodsIssue_Src
+
