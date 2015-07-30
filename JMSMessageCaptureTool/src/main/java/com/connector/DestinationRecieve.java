@@ -31,7 +31,6 @@ public class DestinationRecieve implements MessageListener,Runnable{
 	
 	
 	
-	@Override
 	public void run() {
 		init1();
 		try{
@@ -63,7 +62,6 @@ public class DestinationRecieve implements MessageListener,Runnable{
 			}
 
 	
-	@Override
 	public void onMessage(Message msg) {
 		if(msg instanceof TextMessage)
 			{

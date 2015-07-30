@@ -3,4 +3,21 @@
   <groupId>com.jms</groupId>
   <artifactId>JMSMessageCaptureTool</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+      <dependency>
+         <groupId>wlfullclient</groupId>
+         <artifactId>wlfullclient</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${basedir}/src/main/resources/wljar/wlfullclient.jar</systemPath>
+      </dependency>
+      <dependency>
+	<groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<version>1.2.17</version>
+</dependency>
+      
+   </dependencies>
+
+</project>
 </project>

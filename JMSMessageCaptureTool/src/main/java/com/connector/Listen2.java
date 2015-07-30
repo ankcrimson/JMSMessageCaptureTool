@@ -19,7 +19,7 @@ public class Listen2 implements MessageListener {
 		setHead(tname);
 	}
 	
-	@Override
+	
 	public synchronized void onMessage(Message m) {
 		// TODO Auto-generated method stub
 		try{

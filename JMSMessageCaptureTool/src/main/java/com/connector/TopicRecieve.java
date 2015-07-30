@@ -19,7 +19,7 @@ import javax.rmi.PortableRemoteObject;
 
 public class TopicRecieve implements MessageListener,Runnable{
 	
-	@Override
+	
 	public void run() {
 		// TODO Auto-generated method stub
 		//tcon.start();
@@ -44,7 +44,6 @@ public class TopicRecieve implements MessageListener,Runnable{
 	private boolean quit = false;
 	private InitialContext ic;
 	
-	@Override
 	public void onMessage(Message msg) {
 		/*try{
 			Thread.sleep(100);
