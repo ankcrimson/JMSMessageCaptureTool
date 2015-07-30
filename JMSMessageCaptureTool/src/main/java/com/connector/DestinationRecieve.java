@@ -29,8 +29,15 @@ public class DestinationRecieve implements MessageListener,Runnable{
 	private boolean quit = false;
 	private InitialContext ic;
 	
+	private String username;
+	private String password;
 	
-	
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	public void run() {
 		init1();
 		try{
@@ -112,8 +119,8 @@ public class DestinationRecieve implements MessageListener,Runnable{
 			env.put(Context.INITIAL_CONTEXT_FACTORY, JNDI_FACTORY);
 			env.put(Context.PROVIDER_URL, url);
 			env.put("weblogic.jndi.createIntermediateContexts", "true");
-			env.put(Context.SECURITY_PRINCIPAL, "asriv5");
-			env.put(Context.SECURITY_CREDENTIALS, "Spring15#");
+			env.put(Context.SECURITY_PRINCIPAL, username);
+			env.put(Context.SECURITY_CREDENTIALS, password);
 			return new InitialContext(env);
 			}
 
