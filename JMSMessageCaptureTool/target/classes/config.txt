@@ -1,2 +1,2 @@
 t3://localhost:7001,jms.testConnectionFactory,weblogic.jndi.WLInitialContextFactory,jms/queue0
-
+t3://localhost:7001,jms.testConnectionFactory,weblogic.jndi.WLInitialContextFactory,jms/topic0
